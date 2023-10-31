@@ -1,0 +1,61 @@
+/*=====common css start=====*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+input,
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+/*=====common css end=====*/
+aside{
+    background-color: #333;
+    width:250px;
+    height:100vh;
+    transition: .5s;
+}
+aside nav ul li a{
+    font-size: 18px;
+    color: #ddd;
+    text-transform: capitalize;
+    font-family:  sans-serif;
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid rgba(250, 250, 250, .1);
+    transition:.5s;
+  
+    
+}
+aside nav ul li a:hover{
+    background-color: #222;
+}
+#menu_toggle_btn{
+position: fixed;
+top:20px;
+right:20px;
+width:40px;
+height: 40px;
+background-color: #333;
+color: #eee;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+}
+#menu_toggle_btn:hover{
+    background-color: #222;
+}
+.test{
+    opacity:0;
+    visibility: hidden;
+  transform-origin:bottom;
+}
